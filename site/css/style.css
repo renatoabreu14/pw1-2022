@@ -93,3 +93,17 @@ body{
     max-width: 1000px;
 }
 
+/*EQUIPE*/
+#equipe{
+    background-color: rgb(89, 11, 173);
+    color: white;
+}
+
+#equipe .img-box-round img{
+    width: 120px;
+    height: 120px;
+}
+
+#equipe h2:after{
+    background-color: rgb(255, 255, 255);
+}
