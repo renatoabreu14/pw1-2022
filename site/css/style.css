@@ -10,7 +10,7 @@ body{
 
 /*HEADER*/
 #header{
-    background: #000 no-repeat;
+    background: #000 no-repeat fixed;
     background-size: cover;
     color: #ffffff;
     padding-top: 30px;
@@ -69,3 +69,60 @@ body{
     filter:drop-shadow(8px 8px 5px white);
 }
 
+/*FOOTER*/
+#footer{
+    background-color: rgb(51, 51, 51);
+    text-align: left;
+}
+
+#footer, #footer a{
+    color: rgb(204, 204, 204);
+}
+
+#footer h3, #footer nav li{
+    text-transform: uppercase;
+}
+
+#footer h3:after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    width: 30px;
+}
+
+#footer nav li{
+    padding: 3px 0;
+}
+
+#footer nav li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#footer .social{
+    height: 200px;
+    line-height: 200px;
+    text-align: right;
+}
+
+#footer .social a{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+#footer .social a:hover{
+    opacity: 0.5;
+    transition: all .3s ease;
+}
+
+#footer .social img{
+    vertical-align: center;
+}
+
+#copyright{
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+    color: white;
+}
