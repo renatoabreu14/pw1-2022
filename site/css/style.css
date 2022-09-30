@@ -6,6 +6,7 @@
 
 body{
     color: rgb(31, 31, 31);
+    line-height: 25px;
 }
 
 /*HEADER*/
@@ -67,6 +68,14 @@ body{
 }
 .drop-shadow img {
     filter:drop-shadow(8px 8px 5px white);
+}
+
+.section{
+    padding: 30px 0 30px 0;
+}
+
+.section-center{
+    text-align: center;
 }
 
 /*FOOTER*/
