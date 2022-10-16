@@ -13,3 +13,11 @@
     background-color: rgb(141, 28, 28);
     transition: all .5s ease;
 }
+
+.btn.orange{
+    background-color: #d3a60a;
+}
+
+.btn.orange:hover{
+    background-color: black;
+}
